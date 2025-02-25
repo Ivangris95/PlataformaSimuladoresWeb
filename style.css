@@ -84,6 +84,22 @@ footer {
     font-size: 30px;
 }
 
+/* Simuladores */
+
+.simulator-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.simulator-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
 /* Animaciones */
 .main-container .simulator {
     transition: transform 0.3s ease;
