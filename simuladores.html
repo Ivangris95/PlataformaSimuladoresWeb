@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Simuladores Universae</title>
-        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="style.css" />
         <script
             src="https://kit.fontawesome.com/29a9066450.js"
             crossorigin="anonymous"
@@ -13,9 +13,9 @@
     </head>
     <body>
         <header>
-            <a href="../index.html" class="logo">
+            <a href="index.html" class="logo">
                 <img
-                    src="../img/HeaderWebUniversae.png"
+                    src="img/HeaderWebUniversae.png"
                     alt="UNIVERSAE Instituto Superior de FP"
                 />
             </a>
@@ -29,40 +29,47 @@
                         width="100%"
                         height="700"
                         frameborder="0"
+                        allowfullscreen
                         scrolling="no"
+                        allow="autoplay; fullscreen *"
                     ></iframe>
                 </div>
             </div>
             <div class="info-container">
-                <h3>
-                    Mantenimiento de los equipos y herramientas de extinción de
-                    incendios forestales.
-                </h3>
-                <p>
-                    En un campo de prácticas sumido en el desorden y la
-                    confusión tienes que encontrar tienes que encontrar y
-                    colocar las partes de los EPIs utilizados en la extinción de
-                    incendios forestales.
-                </p>
-                <p>Grado: Coordinación de emergencias y protección civil.</p>
-                <p>Asignatura:</p>
-                <p>Unidad:</p>
-                <p>Duración aporximada: 10 minutos.</p>
-                <p>nivel de dificultad: Fácil</p>
-            </div>
-            <div class="carousel-container">
-                <div class="carousel-slides">
+                <div class="info-content">
+                    <h2>
+                        Mantenimiento de los equipos y herramientas de extinción
+                        de incendios forestales.
+                    </h2>
+                    <br />
+                    <p>
+                        En un campo de prácticas sumido en el desorden y la
+                        confusión tienes que encontrar tienes que encontrar y
+                        colocar las partes de los EPIs utilizados en la
+                        extinción de incendios forestales.
+                    </p>
+                    <br />
+                    <p>
+                        <strong>Grado:</strong> Coordinación de emergencias y
+                        protección civil.
+                    </p>
+                    <p><strong>Asignatura:</strong></p>
+                    <p><strong>Unidad:</strong></p>
+                    <p><strong>Duración aporximada:</strong> 10 minutos.</p>
+                    <p><strong>nivel de dificultad:</strong> Fácil</p>
+                </div>
+                <div class="carousel-container">
                     <div class="carousel-slide">
-                        <img src="../img/Embarque/Embarque0.png" alt="" />
+                        <img src="img/Embarque/Embarque0.png" alt="" />
                     </div>
                     <div class="carousel-slide">
-                        <img src="../img/Embarque/Embarque1.png" alt="" />
+                        <img src="img/Embarque/Embarque1.png" alt="" />
                     </div>
                     <div class="carousel-slide">
-                        <img src="../img/Embarque/Embarque2.png" alt="" />
+                        <img src="img/Embarque/Embarque2.png" alt="" />
                     </div>
                     <div class="carousel-slide">
-                        <img src="../img/Embarque/Embarque3.png" alt="" />
+                        <img src="img/Embarque/Embarque3.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -96,5 +103,20 @@
                 </a>
             </div>
         </footer>
+
+        <div class="lightbox" id="lightbox">
+            <span class="close-lightbox"
+                ><i class="fa-solid fa-xmark"></i
+            ></span>
+            <button class="nav-btn prev-btn" id="prev-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <img class="lightbox-content" id="lightbox-img" />
+            <button class="nav-btn next-btn" id="next-btn">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <script src="srcipt.js"></script>
     </body>
 </html>
